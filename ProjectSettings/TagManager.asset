@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Meat
+  - Vege
+  - Milk
+  - Ball
+  - Book
+  - Game
+  - Dust
   layers:
   - Default
   - TransparentFX
