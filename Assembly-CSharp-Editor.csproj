@@ -436,20 +436,20 @@
     <Reference Include="PlayMakerEditorResources">
       <HintPath>C:/unity/60Kindergarten/Kindergarten/Assets/PlayMaker/Editor/PlayMakerEditorResources.dll</HintPath>
     </Reference>
-    <Reference Include="PlayMaker">
-      <HintPath>C:/unity/60Kindergarten/Kindergarten/Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.VersionHandler">
-      <HintPath>C:/unity/60Kindergarten/Kindergarten/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+    <Reference Include="Google.IOSResolver_v1.2.135.0">
+      <HintPath>C:/unity/60Kindergarten/Kindergarten/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.135.0.dll</HintPath>
     </Reference>
     <Reference Include="Google.JarResolver_v1.2.135.0">
       <HintPath>C:/unity/60Kindergarten/Kindergarten/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.135.0.dll</HintPath>
     </Reference>
-    <Reference Include="Google.IOSResolver_v1.2.135.0">
-      <HintPath>C:/unity/60Kindergarten/Kindergarten/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.135.0.dll</HintPath>
+    <Reference Include="Google.VersionHandler">
+      <HintPath>C:/unity/60Kindergarten/Kindergarten/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
     </Reference>
     <Reference Include="Google.VersionHandlerImpl_v1.2.135.0">
       <HintPath>C:/unity/60Kindergarten/Kindergarten/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.135.0.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayMaker">
+      <HintPath>C:/unity/60Kindergarten/Kindergarten/Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:/unity/60Kindergarten/Kindergarten/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>

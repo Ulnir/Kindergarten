@@ -975,6 +975,7 @@
     <Compile Include="Assets\PlayMaker\FsmProcessor.cs" />
     <Compile Include="Assets\PlayMaker\UpdateHelper.cs" />
     <Compile Include="Assets\Script\Ads_Banner.cs" />
+    <Compile Include="Assets\Script\Ads_Interstitial.cs" />
     <Compile Include="Assets\Script\DragDrop.cs" />
     <Compile Include="Assets\Script\ItemSlot.cs" />
     <None Include="Assets\PlayMaker\Readme.txt" />
