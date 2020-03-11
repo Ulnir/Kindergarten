@@ -13,10 +13,11 @@ namespace HutongGames.PlayMaker.Actions
 		[Tooltip("The GameObject with the Image UI component.")]
 		public FsmOwnerDefault gameObject;
 
-		[RequiredField]
-		[Tooltip("The source sprite of the UI Image component.")]
-		[ObjectType(typeof(Sprite))]
-		public FsmObject sprite;
+        [RequiredField]
+        [Tooltip("The source sprite name.")]
+        [ObjectType(typeof(Sprite))]
+
+        public FsmObject sprite;
 
 		[Tooltip("Reset when exiting this state.")]
 		public FsmBool resetOnExit;
@@ -32,6 +33,8 @@ namespace HutongGames.PlayMaker.Actions
 		
 		public override void OnEnter()
 		{
+            
+
 			var go = Fsm.GetOwnerDefaultTarget(gameObject);
 			if (UpdateCache(go))
 			{
