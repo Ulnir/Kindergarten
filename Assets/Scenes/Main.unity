@@ -11115,7 +11115,6 @@ MonoBehaviour:
       transitions: []
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.SetIntValue
         - HutongGames.PlayMaker.Actions.HashTableGet
         - HutongGames.PlayMaker.Actions.HashTableGet
         - HutongGames.PlayMaker.Actions.UiTextSetText
@@ -11127,11 +11126,10 @@ MonoBehaviour:
         - 
         - 
         - 
-        - 
-        actionEnabled: 010101010101
-        actionIsOpen: 010101010101
-        actionStartIndex: 0000000003000000090000000f0000001300000016000000
-        actionHashCodes: 603dd905321c5402321c540209fbab04e9f7330409fbab04
+        actionEnabled: 0101010101
+        actionIsOpen: 0101010101
+        actionStartIndex: 00000000060000000c0000001000000013000000
+        actionHashCodes: 321c5402321c540209fbab04e9f7330409fbab04
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -11277,19 +11275,7 @@ MonoBehaviour:
         fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams: []
-        fsmIntParams:
-        - useVariable: 1
-          name: result
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 1111
+        fsmIntParams: []
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -11319,16 +11305,13 @@ MonoBehaviour:
         - 
         - 
         - 
-        byteData: 000000
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1000000010000000010000001400000012000000120000002700000017000000170000001400000012000000120000002700000017000000170000001400000012000000110000000100000014000000120000001100000014000000120000001100000001000000
+        paramDataType: 1400000012000000120000002700000017000000170000001400000012000000120000002700000017000000170000001400000012000000110000000100000014000000120000001100000014000000120000001100000001000000
         paramName:
-        - intVariable
-        - intValue
-        - everyFrame
         - gameObject
         - reference
         - key
@@ -11352,8 +11335,8 @@ MonoBehaviour:
         - text
         - resetOnExit
         - everyFrame
-        paramDataPos: 0000000001000000000000000000000000000000010000000000000000000000010000000100000002000000030000000100000002000000030000000200000004000000000000000100000003000000050000000100000004000000060000000200000002000000
-        paramByteDataSize: 0000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000001000000
+        paramDataPos: 0000000000000000010000000000000000000000010000000100000002000000030000000100000002000000030000000200000004000000000000000000000003000000050000000100000004000000060000000200000001000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -17612,7 +17595,6 @@ GameObject:
   - component: {fileID: 1944675963}
   - component: {fileID: 1944675965}
   - component: {fileID: 1944675964}
-  - component: {fileID: 1944675966}
   m_Layer: 5
   m_Name: Image_Result
   m_TagString: Untagged
@@ -17675,20 +17657,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1944675962}
   m_CullTransparentMesh: 0
---- !u!114 &1944675966
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1944675962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b04a840389f525847b6da217f0b437a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  name: "\uAE34 \uACE0\uC591\uC774"
-  sprite: {fileID: 0}
 --- !u!1 &1962932746
 GameObject:
   m_ObjectHideFlags: 0
@@ -18070,7 +18038,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previewOnGUI: 1
   enableGUILayout: 1
-  drawStateLabels: 0
+  drawStateLabels: 1
   enableStateLabelsInBuilds: 0
   GUITextureStateLabels: 0
   GUITextStateLabels: 0

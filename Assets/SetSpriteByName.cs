@@ -36,7 +36,7 @@ namespace HutongGames.PlayMaker.Actions
         public override void OnEnter()
         {
             
-            sprite = Resources.Load(Text.Value) as Sprite;
+            sprite = Resources.Load<Sprite>(Text.Value);
 
             var go = Fsm.GetOwnerDefaultTarget(gameObject);
             if (UpdateCache(go))
