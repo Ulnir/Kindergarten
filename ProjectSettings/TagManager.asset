@@ -11,6 +11,7 @@ TagManager:
   - Book
   - Game
   - Dust
+  - Dic_Hidden
   layers:
   - Default
   - TransparentFX
