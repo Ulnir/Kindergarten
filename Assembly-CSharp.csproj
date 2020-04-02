@@ -218,6 +218,7 @@
     <Compile Include="Assets\PlayMaker ArrayMaker\__internal__\PlayMakerArrayListProxy.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\__internal__\PlayMakerCollectionProxy.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\__internal__\PlayMakerHashTableProxy.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\Math\IntModulo.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Resources\ResourcesLoad.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Vector2\RandomVector2.cs" />
     <Compile Include="Assets\PlayMaker DataMaker\Csv\Actions\GetCsvColumnCount.cs" />
