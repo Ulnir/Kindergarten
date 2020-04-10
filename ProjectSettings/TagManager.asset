@@ -12,6 +12,7 @@ TagManager:
   - Game
   - Dust
   - Dic_Hidden
+  - Dic_New
   layers:
   - Default
   - TransparentFX

@@ -4,432 +4,432 @@
 		<num>1</num>
 		<id>1111</id>
 		<name>긴 고양이</name>
-		<explain>우유를 먹고 키가 쑥쑥 자라다가 길어져버렸다.</explain>
+		<explain>잘 먹고 잘 놀아서 길어진 고양이.</explain>
 	</result>
 	<result>
 		<num>2</num>
 		<id>1121</id>
-		<name>발 핥는 몽구스</name>
-		<explain>미끈미끈 춤을 추기 위해 발을 자주 핥는다.</explain>
+		<name>댄서 몽구스</name>
+		<explain>멋진 춤을 보여주기 위해 발을 자주 핥는다.</explain>
 	</result>
 	<result>
 		<num>3</num>
 		<id>1113</id>
-		<name>목욕 애호가 기린</name>
-		<explain>거품 목욕을 즐겨 한다.</explain>
+		<name>목욕 중인 기린</name>
+		<explain>언제나 새콤달콤 향기가 나는 기린.</explain>
 	</result>
 	<result>
 		<num>4</num>
 		<id>1123</id>
-		<name>깨끗하고재미있고키작은초식동물</name>
-		<explain>설명입니다</explain>
+		<name>피리부는 풀벌레</name>
+		<explain>뿌-뿌- 아직 잘 못 분다.</explain>
 	</result>
 	<result>
 		<num>5</num>
 		<id>1112</id>
-		<name>깨끗하고재미있고키큰잡식</name>
-		<explain>설명입니다</explain>
+		<name>커다란 미남 개그맨</name>
+		<explain>커다란 키로 우당탕 넘어진다.</explain>
 	</result>
 	<result>
 		<num>6</num>
 		<id>1122</id>
-		<name>깨끗하고재미있고키작은잡식</name>
-		<explain>설명입니다</explain>
+		<name>노잼사람</name>
+		<explain>재미있지만 노잼사람이라고한다.</explain>
 	</result>
 	<result>
 		<num>7</num>
 		<id>1211</id>
-		<name>깨끗하고재미없고키큰육식동물</name>
-		<explain>설명입니다</explain>
+		<name>외로운 사자</name>
+		<explain>정말로 멋진 동물은 언제나 혼자야!</explain>
 	</result>
 	<result>
 		<num>8</num>
 		<id>1221</id>
-		<name>깨끗하고재미없고키작은육식동물</name>
-		<explain>설명입니다</explain>
+		<name>다혈질 랫서팬더</name>
+		<explain>과일을 안 주면 화를 내는 랫서팬더.</explain>
 	</result>
 	<result>
 		<num>9</num>
 		<id>1213</id>
-		<name>깨끗하고재미없고키큰초식동물</name>
-		<explain>설명입니다</explain>
+		<name>멍한 공룡</name>
+		<explain>…응?...나를 불렀어?...</explain>
 	</result>
 	<result>
 		<num>10</num>
 		<id>1223</id>
-		<name>깨끗하고재미없고키작은초식동물</name>
-		<explain>설명입니다</explain>
+		<name>잘 우는 사슴</name>
+		<explain>왜!!!!!왜!!!!!!!나한테만 그래!!!!!!!</explain>
 	</result>
 	<result>
 		<num>11</num>
 		<id>1212</id>
-		<name>깨끗하고재미없고키큰잡식</name>
-		<explain>설명입니다</explain>
+		<name>아주 긴 개</name>
+		<explain>긴 고양이보다 더 길어진 개</explain>
 	</result>
 	<result>
 		<num>12</num>
 		<id>1222</id>
-		<name>깨끗하고재미없고키작은잡식</name>
-		<explain>설명입니다</explain>
+		<name>겁많은 달팽이</name>
+		<explain>아는 것이 많아 겁이 많아진 달팽이다.</explain>
 	</result>
 	<result>
 		<num>13</num>
 		<id>1311</id>
-		<name>깨끗하고똑똑한키큰육식동물</name>
-		<explain>설명입니다</explain>
+		<name>모범생 티라노</name>
+		<explain>선생님! 티라노에 대한 편견을 버리세요!</explain>
 	</result>
 	<result>
 		<num>14</num>
 		<id>1321</id>
-		<name>깨끗하고똑똑한키작은육식동물</name>
-		<explain>설명입니다</explain>
+		<name>독서광 뱀</name>
+		<explain>책을 좋아한다. 하지만 항상 같은 페이지.</explain>
 	</result>
 	<result>
 		<num>15</num>
 		<id>1313</id>
-		<name>깨끗하고똑똑한키큰초식동물</name>
-		<explain>설명입니다</explain>
+		<name>100점 염소</name>
+		<explain>100점 시험지가 제일 맛있어.</explain>
 	</result>
 	<result>
 		<num>16</num>
 		<id>1323</id>
-		<name>깨끗하고똑똑한키작은초식동물</name>
-		<explain>설명입니다</explain>
+		<name>신문 거북이</name>
+		<explain>하루 종일 신문 보는 거북이</explain>
 	</result>
 	<result>
 		<num>17</num>
 		<id>1312</id>
-		<name>깨끗하고똑똑한키큰잡식</name>
-		<explain>설명입니다</explain>
+		<name>관찰왕 원숭이</name>
+		<explain>언제나 땅을 보고 있다. 뭘 보는걸까?</explain>
 	</result>
 	<result>
 		<num>18</num>
 		<id>1322</id>
-		<name>깨끗하고똑똑한키작은잡식</name>
-		<explain>설명입니다</explain>
+		<name>수학 영재 햄스터</name>
+		<explain>챗바퀴를 7번 돌 때 필요한 시간을 구하시오.</explain>
 	</result>
 	<result>
 		<num>19</num>
 		<id>1411</id>
-		<name>깨끗하고멍청한키큰육식동물</name>
-		<explain>설명입니다</explain>
+		<name>겁 많은 상어</name>
+		<explain>저 집게 좀 봐! 큰 일 날 뻔 했어!</explain>
 	</result>
 	<result>
 		<num>20</num>
 		<id>1421</id>
-		<name>깨끗하고멍청한키작은육식동물</name>
-		<explain>설명입니다</explain>
+		<name>눈싸움 악어</name>
+		<explain>거울 안의 자신과 눈싸움 중인 악어</explain>
 	</result>
 	<result>
 		<num>21</num>
 		<id>1413</id>
-		<name>깨끗하고멍청한키큰초식동물</name>
-		<explain>설명입니다</explain>
+		<name>선인장 낙타</name>
+		<explain>선인장을 좋아해서 매일 입술을 다치는 낙타</explain>
 	</result>
 	<result>
 		<num>22</num>
 		<id>1423</id>
-		<name>깨끗하고멍청한키작은초식동물</name>
-		<explain>설명입니다</explain>
+		<name>낮잠 토끼</name>
+		<explain>밤에는 뭘 하냐구요? 당연히 자죠!</explain>
 	</result>
 	<result>
 		<num>23</num>
 		<id>1412</id>
-		<name>깨끗하고멍청한키큰잡식</name>
-		<explain>설명입니다</explain>
+		<name>행복한 나무늘보</name>
+		<explain>나아아아는해애앵보오오옥해애애애</explain>
 	</result>
 	<result>
 		<num>24</num>
 		<id>1422</id>
-		<name>깨끗하고멍청한키작은잡식</name>
-		<explain>설명입니다</explain>
+		<name>키 작은 곰</name>
+		<explain>벌집에 손이 안 닿네! 사다리를 빌려주자!</explain>
 	</result>
 	<result>
 		<num>25</num>
 		<id>1511</id>
-		<name>깨끗하고튼튼한키큰육식동물</name>
-		<explain>설명입니다</explain>
+		<name>아아메 북극곰</name>
+		<explain>커피를 좋아해서 3일째 잠을 못 잤다.</explain>
 	</result>
 	<result>
 		<num>26</num>
 		<id>1521</id>
-		<name>깨끗하고튼튼한키작은육식동물</name>
-		<explain>설명입니다</explain>
+		<name>무시무시한 피라냐</name>
+		<explain>날카로운 이빨, 날카로운 이빨, 날카로운 이빨!</explain>
 	</result>
 	<result>
 		<num>27</num>
 		<id>1513</id>
-		<name>깨끗하고튼튼한키큰초식동물</name>
-		<explain>설명입니다</explain>
+		<name>서커스 코끼리</name>
+		<explain>코끼리는 언제나 인기만점!</explain>
 	</result>
 	<result>
 		<num>28</num>
 		<id>1523</id>
-		<name>깨끗하고튼튼한키작은초식동물</name>
-		<explain>설명입니다</explain>
+		<name>나무밑둥</name>
+		<explain>안녕, 나는 나무밑둥! 앞으로 잘 부탁해.</explain>
 	</result>
 	<result>
 		<num>29</num>
 		<id>1512</id>
-		<name>깨끗하고튼튼한키큰잡식</name>
-		<explain>설명입니다</explain>
+		<name>턱걸이 이구아나</name>
+		<explain>하나! 두우우우울! 세에에에에에에에엣!</explain>
 	</result>
 	<result>
 		<num>30</num>
 		<id>1522</id>
-		<name>깨끗하고튼튼한키작은잡식</name>
-		<explain>설명입니다</explain>
+		<name>날쌘 좀비</name>
+		<explain>작지만 날쌘 좀비. 물리면 큰 일이다.</explain>
 	</result>
 	<result>
 		<num>31</num>
 		<id>1611</id>
-		<name>깨끗하고허약한키큰육식동물</name>
-		<explain>설명입니다</explain>
+		<name>붕대 여우</name>
+		<explain>항상 붕대를 매고 있는 여우. 패션일까?</explain>
 	</result>
 	<result>
 		<num>32</num>
 		<id>1621</id>
-		<name>깨끗하고허약한키작은육식동물</name>
-		<explain>설명입니다</explain>
+		<name>감기걸린 고슴도치</name>
+		<explain>하루 푹 쉬면 나을 거에요.</explain>
 	</result>
 	<result>
 		<num>33</num>
 		<id>1613</id>
-		<name>깨끗하고허약한키큰초식동물</name>
-		<explain>설명입니다</explain>
+		<name>흔들리는 부들</name>
+		<explain>하늘하늘 부들부들</explain>
 	</result>
 	<result>
 		<num>34</num>
 		<id>1623</id>
-		<name>깨끗하고허약한키작은초식동물</name>
-		<explain>설명입니다</explain>
+		<name>새싹</name>
+		<explain>물을 주면 더 자랄까?</explain>
 	</result>
 	<result>
 		<num>35</num>
 		<id>1612</id>
-		<name>깨끗하고허약한키큰잡식</name>
-		<explain>설명입니다</explain>
+		<name>바람인형</name>
+		<explain>에에? 날카로운것 좀 저리 치워줄래요!?</explain>
 	</result>
 	<result>
 		<num>36</num>
 		<id>1622</id>
-		<name>깨끗하고허약한키작은잡식</name>
-		<explain>설명입니다</explain>
+		<name>비 피하는 참새</name>
+		<explain>우산 속은 아늑해</explain>
 	</result>
 	<result>
 		<num>37</num>
 		<id>2111</id>
-		<name>더럽고재미있는키큰육식동물</name>
-		<explain>설명입니다</explain>
+		<name>저글링 오징어</name>
+		<explain>팔이 많으면 할 수 있는게 많다구!</explain>
 	</result>
 	<result>
 		<num>38</num>
 		<id>2121</id>
-		<name>더럽고재미있는키작은육식동물</name>
-		<explain>설명입니다</explain>
+		<name>아이돌 불가사리</name>
+		<explain>팬들을 위한 격한 댄스로 언제나 땀이 흠뻑</explain>
 	</result>
 	<result>
 		<num>39</num>
 		<id>2113</id>
-		<name>더럽고재미있는키큰초식동물</name>
-		<explain>설명입니다</explain>
+		<name>콩나물 두부</name>
+		<explain>콩나물이 자라는 두부. 완전식품</explain>
 	</result>
 	<result>
 		<num>40</num>
 		<id>2123</id>
-		<name>더럽고재미있는키작은초식동물</name>
-		<explain>설명입니다</explain>
+		<name>씩씩한 세잎클로버</name>
+		<explain>그만 밟아요! 언제나 씩씩한 세잎클로버</explain>
 	</result>
 	<result>
 		<num>41</num>
 		<id>2112</id>
-		<name>더럽고재미있는키큰잡식</name>
-		<explain>설명입니다</explain>
+		<name>도시 눈사람</name>
+		<explain>음, 나는 도시의 시끌벅적한 밤이 좋아.</explain>
 	</result>
 	<result>
 		<num>42</num>
 		<id>2122</id>
-		<name>더럽고재미있는키작은잡식</name>
-		<explain>설명입니다</explain>
+		<name>녹고 있는 눈사람</name>
+		<explain>저기요? 그만 보시고 좀 도와주실래요?</explain>
 	</result>
 	<result>
 		<num>43</num>
 		<id>2211</id>
-		<name>더럽고재미없는키큰육식동물</name>
-		<explain>설명입니다</explain>
+		<name>진흙괴물</name>
+		<explain>크왕! 진흙을 좋아하는 정체불명의 생물</explain>
 	</result>
 	<result>
 		<num>44</num>
 		<id>2221</id>
-		<name>더럽고재미없는키작은육식동물</name>
-		<explain>설명입니다</explain>
+		<name>잘난척 개구리</name>
+		<explain>언제나 잘난척 노래를 부른다!</explain>
 	</result>
 	<result>
 		<num>45</num>
 		<id>2213</id>
-		<name>더럽고재미없는키큰초식동물</name>
-		<explain>설명입니다</explain>
+		<name>커다란 바오밥</name>
+		<explain>너무 커서 지구가 위험해!</explain>
 	</result>
 	<result>
 		<num>46</num>
 		<id>2223</id>
-		<name>더럽고재미없는키작은초식동물</name>
-		<explain>설명입니다</explain>
+		<name>차 마시는 코알라</name>
+		<explain>사실 컵에 담긴 건 콜라라는 소문.</explain>
 	</result>
 	<result>
 		<num>47</num>
 		<id>2212</id>
-		<name>더럽고재미없는키큰잡식</name>
-		<explain>설명입니다</explain>
+		<name>커다란 오리</name>
+		<explain>너무 커져버린 오리. 하지만 멋지다.</explain>
 	</result>
 	<result>
 		<num>48</num>
 		<id>2222</id>
-		<name>더럽고재미없는키작은잡식</name>
-		<explain>설명입니다</explain>
+		<name>혼잣말 하는 바지락</name>
+		<explain>그럴거면 껍질 안에서 하라구!</explain>
 	</result>
 	<result>
 		<num>49</num>
 		<id>2311</id>
-		<name>더럽고똑똑한키큰육식동물</name>
-		<explain>설명입니다</explain>
+		<name>박사 좀비</name>
+		<explain>하루 종일 공부하다가 좀비가 되어버렸어!</explain>
 	</result>
 	<result>
 		<num>50</num>
 		<id>2321</id>
-		<name>더럽고똑똑한키작은육식동물</name>
-		<explain>설명입니다</explain>
+		<name>사냥꾼 닥스훈트</name>
+		<explain>킁킁, 뼈다귀를 잘 찾아요.</explain>
 	</result>
 	<result>
 		<num>51</num>
 		<id>2313</id>
-		<name>더럽고똑똑한키큰초식동물</name>
-		<explain>설명입니다</explain>
+		<name>긴 버섯</name>
+		<explain>문제를 맞출때마다 1cm씩 길어지는 버섯</explain>
 	</result>
 	<result>
 		<num>52</num>
 		<id>2323</id>
-		<name>더럽고똑똑한키작은초식동물</name>
-		<explain>설명입니다</explain>
+		<name>작은 버섯</name>
+		<explain>문제를 맞출때마다 1cm씩 작아지는 버섯</explain>
 	</result>
 	<result>
 		<num>53</num>
 		<id>2312</id>
-		<name>더럽고똑똑한키큰잡식</name>
-		<explain>설명입니다</explain>
+		<name>오래된 로봇</name>
+		<explain>다재다능하고 멋진 로봇! 조금 오래되었다.</explain>
 	</result>
 	<result>
 		<num>54</num>
 		<id>2322</id>
-		<name>더럽고똑똑한키작은잡식</name>
-		<explain>설명입니다</explain>
+		<name>완숙 계란</name>
+		<explain>약한 불에 오래 익혀서 똑똑해진 계란</explain>
 	</result>
 	<result>
 		<num>55</num>
 		<id>2411</id>
-		<name>더럽고멍청한키큰육식동물</name>
-		<explain>설명입니다</explain>
+		<name>부엉빼미</name>
+		<explain>부엉이일까? 올빼미일까?</explain>
 	</result>
 	<result>
 		<num>56</num>
 		<id>2421</id>
-		<name>더럽고멍청한키작은육식동물</name>
-		<explain>설명입니다</explain>
+		<name>게으른 펭귄</name>
+		<explain>입버릇은 추워추워</explain>
 	</result>
 	<result>
 		<num>57</num>
 		<id>2413</id>
-		<name>더럽고멍청한키큰초식동물</name>
-		<explain>설명입니다</explain>
+		<name>상처 많은 대나무</name>
+		<explain>햇볕을 쬐고 더 튼튼해 질거야!</explain>
 	</result>
 	<result>
 		<num>58</num>
 		<id>2423</id>
-		<name>더럽고멍청한키작은초식동물</name>
-		<explain>설명입니다</explain>
+		<name>소리치는 만드라고라</name>
+		<explain>빼애애애애애애앵애애애애애액!</explain>
 	</result>
 	<result>
 		<num>59</num>
 		<id>2412</id>
-		<name>더럽고멍청한키큰잡식</name>
-		<explain>설명입니다</explain>
+		<name>댄싱베어</name>
+		<explain>긴 팔! 긴 다리! 댄스를 위해 태어났답니다.</explain>
 	</result>
 	<result>
 		<num>60</num>
 		<id>2422</id>
-		<name>더럽고멍청한키작은잡식</name>
-		<explain>설명입니다</explain>
+		<name>의심많은 쥐</name>
+		<explain>이거 먹는걸까?</explain>
 	</result>
 	<result>
 		<num>61</num>
 		<id>2511</id>
-		<name>더럽고튼튼한키큰육식동물</name>
-		<explain>설명입니다</explain>
+		<name>힘쎈 고래</name>
+		<explain>못 드는게 없는 커다란 고래</explain>
 	</result>
 	<result>
 		<num>62</num>
 		<id>2521</id>
-		<name>더럽고튼튼한키작은육식동물</name>
-		<explain>설명입니다</explain>
+		<name>훈련 중인 바다사자</name>
+		<explain>언제나 아령을 들고다닌다. 화장실에 갈 때도.</explain>
 	</result>
 	<result>
 		<num>63</num>
 		<id>2513</id>
-		<name>더럽고튼튼한키큰초식동물</name>
-		<explain>설명입니다</explain>
+		<name>단단한 트리케라톱스</name>
+		<explain>매일 단련해서 단단한 뿔을 가지고 있다</explain>
 	</result>
 	<result>
 		<num>64</num>
 		<id>2523</id>
-		<name>더럽고튼튼한키작은초식동물</name>
-		<explain>설명입니다</explain>
+		<name>달인 애벌레</name>
+		<explain>물구나무 최고 기록 17분</explain>
 	</result>
 	<result>
 		<num>65</num>
 		<id>2512</id>
-		<name>더럽고튼튼한키큰잡식</name>
-		<explain>설명입니다</explain>
+		<name>해맑은 근육몬</name>
+		<explain>하하하! 친구들! 다 함께 달려볼까?</explain>
 	</result>
 	<result>
 		<num>66</num>
 		<id>2522</id>
-		<name>더럽고튼튼한키작은잡식</name>
-		<explain>설명입니다</explain>
+		<name>튼튼한 갈매기</name>
+		<explain>누구 보다 멀리 나는 갈매기가 될거야</explain>
 	</result>
 	<result>
 		<num>67</num>
 		<id>2611</id>
-		<name>더럽고허약한키큰육식동물</name>
-		<explain>설명입니다</explain>
+		<name>콧물 호랑이</name>
+		<explain>훌쩍. 훌쩍. 훌쩍. 킁. 푸르르.</explain>
 	</result>
 	<result>
 		<num>68</num>
 		<id>2621</id>
-		<name>더럽고허약한키작은육식동물</name>
-		<explain>설명입니다</explain>
+		<name>배고픈 고양이</name>
+		<explain>맛 좋은 츄르를 준비하세요</explain>
 	</result>
 	<result>
 		<num>69</num>
 		<id>2613</id>
-		<name>더럽고허약한키큰초식동물</name>
-		<explain>설명입니다</explain>
+		<name>한약 먹는 소</name>
+		<explain>황소의 기운이 솟아나!</explain>
 	</result>
 	<result>
 		<num>70</num>
 		<id>2623</id>
-		<name>더럽고허약한키작은초식동물</name>
-		<explain>설명입니다</explain>
+		<name>마지막 잎새</name>
+		<explain>조금만 더 힘을 내!</explain>
 	</result>
 	<result>
 		<num>71</num>
 		<id>2612</id>
-		<name>더럽고허약한키큰잡식</name>
-		<explain>설명입니다</explain>
+		<name>하기싫어 인간</name>
+		<explain>아아아무것도오오오하기싫어어어어어</explain>
 	</result>
 	<result>
 		<num>72</num>
 		<id>2622</id>
-		<name>더럽고허약한키작은잡식</name>
-		<explain>설명입니다</explain>
+		<name>작은 개미</name>
+		<explain>쿠키가 너무 큰거 아니에오?</explain>
 	</result>
 </root>
