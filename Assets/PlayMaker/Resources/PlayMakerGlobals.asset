@@ -102,3 +102,4 @@ MonoBehaviour:
   - OpenResult
   - CreateDicGrid
   - AddDictionary
+  - Start

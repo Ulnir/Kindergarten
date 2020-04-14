@@ -1162,6 +1162,7 @@
     <Compile Include="Assets\Script\Ads_Interstitial.cs" />
     <Compile Include="Assets\Script\DragDrop.cs" />
     <Compile Include="Assets\Script\ItemSlot.cs" />
+    <Compile Include="Assets\Script\prefabReSize.cs" />
     <Compile Include="Assets\SetSpriteByName.cs" />
     <Compile Include="Assets\TestFindSprite.cs" />
     <None Include="Assets\PlayMaker\Readme.txt" />
@@ -1201,6 +1202,12 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/unity/60Kindergarten/Kindergarten/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.DeviceSimulator.Tests.Common">
+      <HintPath>C:/unity/60Kindergarten/Kindergarten/Library/ScriptAssemblies/Unity.DeviceSimulator.Tests.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.DeviceSimulator.Editor">
+      <HintPath>C:/unity/60Kindergarten/Kindergarten/Library/ScriptAssemblies/Unity.DeviceSimulator.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
