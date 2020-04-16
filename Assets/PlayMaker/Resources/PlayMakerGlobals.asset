@@ -103,3 +103,5 @@ MonoBehaviour:
   - CreateDicGrid
   - AddDictionary
   - Start
+  - Pause
+  - PauseEnd

@@ -4,21 +4,28 @@ using UnityEngine;
 
 public class PrefabReSize : MonoBehaviour
 {
-    public GameObject parent;
+
 
     // Start is called before the first frame update
     void Start()
     {
         
-
-        this.transform.SetParent(parent.transform, false);
-
-
+        transform.SetParent(transform.parent.transform);
+        Debug.Log(transform.parent.name);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
+    }
+
+    public void SetTranformParent()
+    {
+
+        transform.SetParent(transform.parent.transform);
+        Debug.Log(transform.parent.name);
+
+
     }
 }

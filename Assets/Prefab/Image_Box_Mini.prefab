@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1545307562884387281}
   - component: {fileID: 5569660329854462540}
   - component: {fileID: 5456838225752928043}
+  - component: {fileID: 87271331440831316}
   m_Layer: 5
   m_Name: Image_Box_Mini
   m_TagString: Untagged
@@ -144,8 +145,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 52
-        y: 100
+        x: 56
+        y: 113
         width: 100
         height: 16
       isBreakpoint: 0
@@ -197,7 +198,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 55
-        y: 242
+        y: 210
         width: 100
         height: 16
       isBreakpoint: 0
@@ -289,6 +290,9 @@ MonoBehaviour:
         paramDataPos: 00000000000000000000000000000000
         paramByteDataSize: 00000000000000000000000001000000
     events:
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
     - name: UI CLICK
       isSystemEvent: 1
       isGlobal: 0
@@ -367,12 +371,27 @@ MonoBehaviour:
     handleFixedUpdate: 0
     handleLateUpdate: 0
     handleApplicationEvents: 0
-    handleUiEvents: 0
+    handleUiEvents: 1
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 1
+--- !u!114 &87271331440831316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545307562884387287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9e95858e6f8c0844ad340be6bba1f26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetFsms:
+  - {fileID: 5456838225752928043}
+  button: {fileID: 5569660329854462540}
 --- !u!1 &1545307563324690179
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,7 +451,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -582,7 +601,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []

@@ -35,7 +35,8 @@ namespace HutongGames.PlayMaker.Actions
 
 			if (go != null)
 			{
-				go.transform.parent = parent.Value == null ? null : parent.Value.transform;
+                //go.transform.parent = parent.Value == null ? null : parent.Value.transform;
+                go.transform.SetParent(parent.Value.transform, false);
 
 				if (resetLocalPosition.Value)
 				{
