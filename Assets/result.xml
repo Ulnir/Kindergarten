@@ -33,8 +33,8 @@
 	<result>
 		<num>6</num>
 		<id>1122</id>
-		<name>노잼사람</name>
-		<explain>재미있지만 노잼사람이라고한다.</explain>
+		<name>웃는 사람</name>
+		<explain>언제나 기분 좋은 하하인간</explain>
 	</result>
 	<result>
 		<num>7</num>
@@ -431,5 +431,23 @@
 		<id>2622</id>
 		<name>작은 개미</name>
 		<explain>쿠키가 너무 큰거 아니에오?</explain>
+	</result>
+	<result>
+		<num>73</num>
+		<id>1</id>
+		<name>쓸쓸한 아이</name>
+		<explain>선생님은 나를 바라봐주지 않아</explain>
+	</result>
+	<result>
+		<num>74</num>
+		<id>2</id>
+		<name>밥 망령</name>
+		<explain>유치원 급식을 한 번도 먹지 못해서 한이 맺혔다.</explain>
+	</result>
+	<result>
+		<num>75</num>
+		<id>3</id>
+		<name>먼지 괴물</name>
+		<explain>내 유년시절은 온통 먼지뿐이야</explain>
 	</result>
 </root>

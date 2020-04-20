@@ -37,17 +37,17 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         Debug.Log(GetComponent<RectTransform>().anchoredPosition);
         rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
 
-        if (GetComponent<RectTransform>().anchoredPosition.x < -500) {
+        if (GetComponent<RectTransform>().anchoredPosition.x < -470) {
 
             Destroy();
         }
 
-        if (GetComponent<RectTransform>().anchoredPosition.x > 500)
+        if (GetComponent<RectTransform>().anchoredPosition.x > 470)
         {
             Destroy();
         }
 
-        if (GetComponent<RectTransform>().anchoredPosition.y < -900)
+        if (GetComponent<RectTransform>().anchoredPosition.y < -880)
         {
             Destroy();
         }

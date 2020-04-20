@@ -43,4 +43,9 @@ public class Ads_Banner : MonoBehaviour
         // Load the banner with the request.
         this.bannerView.LoadAd(request);
     }
+
+    public void Destroy()
+    {
+        bannerView.Destroy();
+    }
 }
