@@ -119,3 +119,5 @@ MonoBehaviour:
   - PauseEnd
   - CLICK
   - AdsRemove
+  - DestroyItem
+  - ButtonSound

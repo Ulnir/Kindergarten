@@ -39,16 +39,20 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
         if (GetComponent<RectTransform>().anchoredPosition.x < -470) {
 
+            PlayMakerFSM.BroadcastEvent("DestroyItem");
             Destroy();
+            
         }
 
         if (GetComponent<RectTransform>().anchoredPosition.x > 470)
         {
+            PlayMakerFSM.BroadcastEvent("DestroyItem");
             Destroy();
         }
 
         if (GetComponent<RectTransform>().anchoredPosition.y < -880)
         {
+            PlayMakerFSM.BroadcastEvent("DestroyItem");
             Destroy();
         }
     }
