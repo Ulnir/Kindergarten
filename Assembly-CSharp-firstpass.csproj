@@ -288,6 +288,9 @@
     <Reference Include="ConditionalExpression">
       <HintPath>C:/unity/60Kindergarten/Kindergarten/Assets/PlayMaker/ConditionalExpression.dll</HintPath>
     </Reference>
+    <Reference Include="PlayMaker">
+      <HintPath>C:/unity/60Kindergarten/Kindergarten/Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
+    </Reference>
     <Reference Include="UDP">
       <HintPath>C:/unity/60Kindergarten/Kindergarten/Assets/Plugins/UDP/UDP.dll</HintPath>
     </Reference>

@@ -336,6 +336,9 @@
     <Reference Include="Google.VersionHandlerImpl_v1.2.135.0">
       <HintPath>C:/unity/60Kindergarten/Kindergarten/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.135.0.dll</HintPath>
     </Reference>
+    <Reference Include="PlayMaker">
+      <HintPath>C:/unity/60Kindergarten/Kindergarten/Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
+    </Reference>
     <Reference Include="UDP">
       <HintPath>C:/unity/60Kindergarten/Kindergarten/Assets/Plugins/UDP/UDP.dll</HintPath>
     </Reference>
