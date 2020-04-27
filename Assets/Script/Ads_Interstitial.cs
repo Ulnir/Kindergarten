@@ -90,4 +90,9 @@ public class Ads_Interstitial : MonoBehaviour
             RequestInterstitial();
         }
     }
+
+    public void Destroy()
+    {
+        interstitial.Destroy();
+    }
 }
