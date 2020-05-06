@@ -5,8 +5,7 @@ using UnityEngine.EventSystems;
 using HutongGames.PlayMaker;
 
 
-public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler, IDropHandler
-{
+public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDropHandler, IDragHandler {
     [SerializeField] private Canvas canvas;
 
     private RectTransform rectTransform;
@@ -32,18 +31,13 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         canvasGroup.blocksRaycasts = false;
     }
 
+    
     public void OnDrag(PointerEventData eventData)
     {
         Debug.Log(GetComponent<RectTransform>().anchoredPosition);
         rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
 
-        if (GetComponent<RectTransform>().anchoredPosition.x < -470) {
-
-            PlayMakerFSM.BroadcastEvent("DestroyItem");
-            Destroy();
-            
-        }
-
+        /*
         if (GetComponent<RectTransform>().anchoredPosition.x > 470)
         {
             PlayMakerFSM.BroadcastEvent("DestroyItem");
@@ -55,9 +49,12 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
             PlayMakerFSM.BroadcastEvent("DestroyItem");
             Destroy();
         }
+        */
+        
     }
+    
 
-    public void OnEndDrag(PointerEventData eventData)
+        public void OnEndDrag(PointerEventData eventData)
     {
         Debug.Log("OnEndDrag");
         canvasGroup.alpha = 1f;
@@ -71,7 +68,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
     public void OnDrop(PointerEventData eventData)
     {
-        throw new System.NotImplementedException();
+        //throw new System.NotImplementedException();
         
     }
 
