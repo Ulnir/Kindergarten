@@ -6075,7 +6075,7 @@ MonoBehaviour:
           name: "\uAD11\uACE0\uAC8C\uC7AC"
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 9
+        toState: "\uC804\uBA74 \uAD11\uACE0 \uAC8C\uC7AC"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -6171,8 +6171,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 721.46094
-        y: 117.015625
+        x: 708.46094
+        y: 104.015625
         width: 100
         height: 48
       isBreakpoint: 0
@@ -9446,13 +9446,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -470
+          value: -450
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 470
+          value: 450
         - useVariable: 1
           name: randomX
           tooltip: 
@@ -9464,7 +9464,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -900
+          value: -850
         - useVariable: 0
           name: 
           tooltip: 
@@ -36364,7 +36364,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5e86268612ba99b458e4c5d739d59568, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1cff27ff5058b33479495129deac0f1c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

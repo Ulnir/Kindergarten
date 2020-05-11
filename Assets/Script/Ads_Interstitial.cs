@@ -11,7 +11,7 @@ public class Ads_Interstitial : MonoBehaviour
 #if UNITY_ANDROID
         string appId = "ca-app-pub-4934040369908276~5983696835";
 #elif UNITY_IPHONE
-            string appId = "ca-app-pub-3940256099942544~1458002511";
+            string appId = "ca-app-pub-4934040369908276~5983696835";
 #else
             string appId = "unexpected_platform";
 #endif
@@ -25,9 +25,9 @@ public class Ads_Interstitial : MonoBehaviour
     private void RequestInterstitial()
     {
 #if UNITY_ANDROID
-        string adUnitId = "ca-app-pub-4934040369908276/4325331939"; //테스트 아이디 
+        string adUnitId = "ca-app-pub-4934040369908276/4325331939";
 #elif UNITY_IPHONE
-        //string adUnitId = "ca-app-pub-3940256099942544/4411468910";
+        string adUnitId = "ca-app-pub-4934040369908276/4325331939";
 #else
         string adUnitId = "unexpected_platform";
 #endif
