@@ -5,9 +5,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{01729BEB-38B3-94D0-873E-F22C19EB806A}</ProjectGuid>
+    <ProjectGuid>{D40B455A-99CC-55DE-700D-E8CF8A193CE1}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <AssemblyName>UnityEditor.TestRunner</AssemblyName>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
@@ -15,7 +15,7 @@
     <TargetFrameworkProfile></TargetFrameworkProfile>
     <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectGenerator>VSTU</UnityProjectGenerator>
-    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityProjectType>GamePlugins:3</UnityProjectType>
     <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>2019.3.2f1</UnityVersion>
     <RootNamespace></RootNamespace>
@@ -33,7 +33,7 @@
     <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DefineConstants>DEBUG;TRACE;UNITY_2019_3_2;UNITY_2019_3;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_INCLUDE_TESTS;UNITY_PURCHASING;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER;ARRAYMAKER;DATAMAKER;PLAYMAKER_UTILS;UNITY_WEBGL;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2019_3_2;UNITY_2019_3;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_INCLUDE_TESTS;UNITY_PURCHASING;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER;ARRAYMAKER;DATAMAKER;PLAYMAKER_UTILS;UNITY_WEBGL;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -43,10 +43,22 @@
     <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DefineConstants>TRACE;UNITY_2019_3_2;UNITY_2019_3;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_INCLUDE_TESTS;UNITY_PURCHASING;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER;ARRAYMAKER;DATAMAKER;PLAYMAKER_UTILS;UNITY_WEBGL;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>TRACE;UNITY_2019_3_2;UNITY_2019_3;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_INCLUDE_TESTS;UNITY_PURCHASING;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER;ARRAYMAKER;DATAMAKER;PLAYMAKER_UTILS;UNITY_WEBGL;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2019.3.2f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -73,12 +85,6 @@
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.ClothModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2019.3.2f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
-    </Reference>
-    <Reference Include="Managed/UnityEngine/UnityEngine.ClusterInputModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.3.2f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
-    </Reference>
-    <Reference Include="Managed/UnityEngine/UnityEngine.ClusterRendererModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.3.2f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.CoreModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2019.3.2f1\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
@@ -230,23 +236,41 @@
     <Reference Include="Managed/UnityEditor">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2019.3.2f1\Editor\Data\Managed/UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.VR">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+    <Reference Include="ConditionalExpression">
+      <HintPath>Assets/PlayMaker/ConditionalExpression.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.Graphs">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+    <Reference Include="PlayMaker">
+      <HintPath>Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    <Reference Include="UDP">
+      <HintPath>Assets/Plugins/UDP/UDP.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.Android.Extensions">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+    <Reference Include="Editor">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
     </Reference>
-    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
-      <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    <Reference Include="Purchasing.Common">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
     </Reference>
-    <Reference Include="nunit.framework">
-      <HintPath>C:/unity/60Kindergarten/Kindergarten/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+    <Reference Include="Stores">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+    </Reference>
+    <Reference Include="Apple">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookStore">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
+    </Reference>
+    <Reference Include="Security">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Tizen">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+    </Reference>
+    <Reference Include="winrt">
+      <HintPath>Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>C:/unity/60Kindergarten/Kindergarten/Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2019.3.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
@@ -604,166 +628,55 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{E08C0643-0A13-BF9B-F68E-2FDBBB855F02}</Project>
-      <Name>UnityEngine.TestRunner</Name>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{7C87BE25-0A2E-FC58-1E14-37330F289AA3}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{F37EB8D3-595B-2A8E-9D57-98253E4F534B}</Project>
+      <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{3A848AB7-9891-EDDA-D555-BF184C2F81F4}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.DeviceSimulator.Tests.Common.csproj">
+      <Project>{685F8BED-9167-201A-6C7F-DE99AD51CDC0}</Project>
+      <Name>Unity.DeviceSimulator.Tests.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{6940CB9D-2F64-7CD4-BA0F-5610D5AB47B0}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.CollabProxy.Editor.csproj">
+      <Project>{C12CEEC6-100C-58A2-DE36-314E4DE5E40B}</Project>
+      <Name>Unity.CollabProxy.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{C540080A-BED7-978E-DDFC-EE09E5DBB722}</Project>
+      <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.DeviceSimulator.Editor.csproj">
+      <Project>{37181E7E-C7A5-C97B-1D24-6F4CFA757300}</Project>
+      <Name>Unity.DeviceSimulator.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{07A21C90-D344-AE1A-8456-9910C203B41A}</Project>
+      <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\CallbacksDelegator.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\CallbacksDelegatorListener.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\CallbacksHolder.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\ExecutionSettings.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\Filter.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\ICallbacks.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\ICallbacksDelegator.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\ICallbacksHolder.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\IErrorCallbacks.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\ITestAdaptor.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\ITestAdaptorFactory.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\ITestResultAdaptor.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\ITestRunSettings.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\ITestRunnerApi.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\ITestTreeRebuildCallbacks.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\RunState.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\TestAdaptor.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\TestAdaptorFactory.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\TestMode.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\TestResultAdaptor.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\TestRunnerApi.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\TestStatus.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\AssemblyInfo.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineParser\CommandLineOption.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineParser\CommandLineOptionSet.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineParser\ICommandLineOption.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineTest\Executer.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineTest\ExecutionSettings.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineTest\ExitCallbacks.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineTest\ISettingsBuilder.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineTest\LogSavingCallbacks.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineTest\LogWriter.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineTest\ResultsSavingCallbacks.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineTest\ResultsWriter.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineTest\RunData.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineTest\RunSettings.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineTest\SettingsBuilder.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineTest\SetupException.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineTest\TestStarter.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\AssetsDatabaseHelper.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\GuiHelper.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\IAssetsDatabaseHelper.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\IGuiHelper.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\TestListBuilder\RenderingOptions.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\TestListBuilder\ResultSummarizer.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\TestListBuilder\TestFilterSettings.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\TestListBuilder\TestTreeViewBuilder.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\TestListGuiHelper.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\TestListTreeView\Icons.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\TestListTreeView\TestListTreeViewDataSource.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\TestListTreeView\TestListTreeViewGUI.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\TestListTreeView\TestTreeViewItem.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\TestRunnerResult.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\TestRunnerUIFilter.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\Views\EditModeTestListGUI.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\Views\PlayModeTestListGUI.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\Views\TestListGUIBase.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\NUnitExtension\Attributes\AssetPipelineIgnore.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\NUnitExtension\Attributes\ITestPlayerBuildModifier.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\NUnitExtension\Attributes\TestPlayerBuildModifierAttribute.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\NUnitExtension\TestRunnerStateSerializer.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\RequireApiProfileAttribute.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\RequirePlatformSupportAttribute.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestBuildAssemblyFilter.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\AttributeFinderBase.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\EditModeLauncher.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\EditModeLauncherContextSettings.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PlatformSetup\AndroidPlatformSetup.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PlatformSetup\ApplePlatformSetup.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PlatformSetup\IPlatformSetup.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PlatformSetup\LuminPlatformSetup.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PlatformSetup\PlatformSpecificSetup.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PlatformSetup\SwitchPlatformSetup.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PlatformSetup\UwpPlatformSetup.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PlatformSetup\XboxOnePlatformSetup.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PlayerLauncher.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PlayerLauncherBuildOptions.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PlayerLauncherContextSettings.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PlaymodeLauncher.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PostbuildCleanupAttributeFinder.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PrebuildSetupAttributeFinder.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\RemotePlayerLogController.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\RemotePlayerTestController.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\RemoteTestResultReciever.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\RuntimeTestLauncherBase.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\TestLauncherBase.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestResultSerializer.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\BuildActionTaskBase.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\BuildTestTreeTask.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\CleanupVerificationTask.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\FileCleanupVerifierTaskBase.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\LegacyEditModeRunTask.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\LegacyPlayModeRunTask.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\LegacyPlayerRunTask.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\PerformUndoTask.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\PrebuildSetupTask.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\RegisterFilesForCleanupVerificationTask.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\SaveModiedSceneTask.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\SaveUndoIndexTask.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\TestTaskBase.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\TestJobData.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\TestJobDataHolder.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\TestJobRunner.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\TestRunCanceledException.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Callbacks\EditModeRunnerCallback.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Callbacks\RerunCallback.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Callbacks\RerunCallbackData.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Callbacks\RerunCallbackInitializer.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Callbacks\TestRunnerCallback.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Callbacks\WindowResultUpdater.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\EditModePCHelper.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\EditModeRunner.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\EditmodeWorkItemFactory.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\EditorEnumeratorTestWorkItem.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\EnumeratorStepHelper.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Messages\EnterPlayMode.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Messages\ExitPlayMode.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Messages\RecompileScripts.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Messages\WaitForDomainReload.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\CachingTestListProvider.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\EditorAssembliesProxy.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\EditorAssemblyWrapper.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\EditorCompilationInterfaceProxy.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\EditorLoadedTestAssemblyProvider.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\IEditorAssembliesProxy.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\IEditorCompilationInterfaceProxy.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\IEditorLoadedTestAssemblyProvider.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\ITestListCache.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\ITestListCacheData.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\ITestListProvider.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\TestListCache.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\TestListCacheData.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\TestListJob.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\TestListProvider.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunnerWindow.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunnerWindowSettings.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestSettings\ITestSettings.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestSettings\ITestSettingsDeserializer.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestSettings\TestSettings.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestSettings\TestSettingsDeserializer.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\AssemblyCompilationErrorsMessage.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\ITestRunnerApiMapper.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\IUtpLogger.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\IUtpMessageReporter.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\Message.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\TestFinishedMessage.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\TestPlanMessage.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\TestRunnerApiMapper.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\TestStartedMessage.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\TestState.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\UnityTestProtocolListener.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\UnityTestProtocolStarter.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\UtpDebuglogger.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\UtpMessageReporter.cs" />
+    <Compile Include="Assets\Plugins\UnityPurchasing\generated\AppleTangle.cs" />
+    <Compile Include="Assets\Plugins\UnityPurchasing\generated\GooglePlayTangle.cs" />
+    <Compile Include="Assets\Plugins\UnityPurchasing\script\CodelessIAPStoreListener.cs" />
+    <Compile Include="Assets\Plugins\UnityPurchasing\script\ComboBox.cs" />
+    <Compile Include="Assets\Plugins\UnityPurchasing\script\Demo\DemoInventory.cs" />
+    <Compile Include="Assets\Plugins\UnityPurchasing\script\IAPButton.cs" />
+    <Compile Include="Assets\Plugins\UnityPurchasing\script\IAPConfigurationHelper.cs" />
+    <Compile Include="Assets\Plugins\UnityPurchasing\script\IAPDemo.cs" />
+    <Compile Include="Assets\Plugins\UnityPurchasing\script\IAPDemoProductUI.cs" />
+    <Compile Include="Assets\Plugins\UnityPurchasing\script\IAPListener.cs" />
+    <Compile Include="Assets\Plugins\UnityPurchasing\script\PurchasingCheck.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GoogleMobileAds\Editor\GoogleMobileAdsDependencies.xml" />

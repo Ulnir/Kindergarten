@@ -1157,8 +1157,8 @@
     <Compile Include="Assets\Script\Ads_Interstitial.cs" />
     <Compile Include="Assets\Script\DragDrop.cs" />
     <Compile Include="Assets\Script\ItemSlot.cs" />
-    <Compile Include="Assets\Script\PrefabReSize.cs" />
     <Compile Include="Assets\Script\TrashSlot.cs" />
+    <Compile Include="Assets\Script\prefabReSize.cs" />
     <Compile Include="Assets\SetSpriteByName.cs" />
     <Compile Include="Assets\TestFindSprite.cs" />
     <None Include="Assets\PlayMaker\Readme.txt" />

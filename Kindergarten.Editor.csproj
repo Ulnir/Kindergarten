@@ -5,9 +5,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{01729BEB-38B3-94D0-873E-F22C19EB806A}</ProjectGuid>
+    <ProjectGuid>{B31BE0B3-3304-7D74-5611-7A9497759E43}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <AssemblyName>UnityEditor.TestRunner</AssemblyName>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
@@ -47,6 +47,18 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2019.3.2f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -244,6 +256,66 @@
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="ConditionalExpression">
+      <HintPath>Assets/PlayMaker/ConditionalExpression.dll</HintPath>
+    </Reference>
+    <Reference Include="ConditionalExpressionEditor">
+      <HintPath>Assets/PlayMaker/Editor/ConditionalExpressionEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayMakerEditor">
+      <HintPath>Assets/PlayMaker/Editor/PlayMakerEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayMakerEditorResources">
+      <HintPath>Assets/PlayMaker/Editor/PlayMakerEditorResources.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.IOSResolver_v1.2.135.0">
+      <HintPath>Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.135.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.JarResolver_v1.2.135.0">
+      <HintPath>Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.135.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandler">
+      <HintPath>Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandlerImpl_v1.2.135.0">
+      <HintPath>Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.135.0.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayMaker">
+      <HintPath>Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
+    </Reference>
+    <Reference Include="UDP">
+      <HintPath>Assets/Plugins/UDP/UDP.dll</HintPath>
+    </Reference>
+    <Reference Include="Editor">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Purchasing.Common">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Stores">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+    </Reference>
+    <Reference Include="Apple">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookStore">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
+    </Reference>
+    <Reference Include="Security">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Tizen">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+    </Reference>
+    <Reference Include="winrt">
+      <HintPath>Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>C:/unity/60Kindergarten/Kindergarten/Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>C:/unity/60Kindergarten/Kindergarten/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:/unity/60Kindergarten/Kindergarten/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -604,166 +676,242 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Kindergarten.Plugins.csproj">
+      <Project>{D40B455A-99CC-55DE-700D-E8CF8A193CE1}</Project>
+      <Name>Kindergarten.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="Kindergarten.csproj">
+      <Project>{CD309021-0DAD-C4DF-053F-060DBD8BD290}</Project>
+      <Name>Kindergarten</Name>
+    </ProjectReference>
+    <ProjectReference Include="Kindergarten.Editor.Plugins.csproj">
+      <Project>{77FA50E1-42C6-8D70-D268-E6B7A0041149}</Project>
+      <Name>Kindergarten.Editor.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.TestRunner.csproj">
+      <Project>{01729BEB-38B3-94D0-873E-F22C19EB806A}</Project>
+      <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
       <Project>{E08C0643-0A13-BF9B-F68E-2FDBBB855F02}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{7C87BE25-0A2E-FC58-1E14-37330F289AA3}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{F37EB8D3-595B-2A8E-9D57-98253E4F534B}</Project>
+      <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{3A848AB7-9891-EDDA-D555-BF184C2F81F4}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.DeviceSimulator.Tests.Common.csproj">
+      <Project>{685F8BED-9167-201A-6C7F-DE99AD51CDC0}</Project>
+      <Name>Unity.DeviceSimulator.Tests.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{6940CB9D-2F64-7CD4-BA0F-5610D5AB47B0}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.CollabProxy.Editor.csproj">
+      <Project>{C12CEEC6-100C-58A2-DE36-314E4DE5E40B}</Project>
+      <Name>Unity.CollabProxy.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{C540080A-BED7-978E-DDFC-EE09E5DBB722}</Project>
+      <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.DeviceSimulator.Editor.csproj">
+      <Project>{37181E7E-C7A5-C97B-1D24-6F4CFA757300}</Project>
+      <Name>Unity.DeviceSimulator.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{07A21C90-D344-AE1A-8456-9910C203B41A}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\CallbacksDelegator.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\CallbacksDelegatorListener.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\CallbacksHolder.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\ExecutionSettings.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\Filter.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\ICallbacks.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\ICallbacksDelegator.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\ICallbacksHolder.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\IErrorCallbacks.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\ITestAdaptor.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\ITestAdaptorFactory.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\ITestResultAdaptor.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\ITestRunSettings.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\ITestRunnerApi.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\ITestTreeRebuildCallbacks.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\RunState.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\TestAdaptor.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\TestAdaptorFactory.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\TestMode.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\TestResultAdaptor.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\TestRunnerApi.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\TestStatus.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\AssemblyInfo.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineParser\CommandLineOption.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineParser\CommandLineOptionSet.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineParser\ICommandLineOption.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineTest\Executer.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineTest\ExecutionSettings.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineTest\ExitCallbacks.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineTest\ISettingsBuilder.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineTest\LogSavingCallbacks.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineTest\LogWriter.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineTest\ResultsSavingCallbacks.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineTest\ResultsWriter.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineTest\RunData.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineTest\RunSettings.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineTest\SettingsBuilder.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineTest\SetupException.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\CommandLineTest\TestStarter.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\AssetsDatabaseHelper.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\GuiHelper.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\IAssetsDatabaseHelper.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\IGuiHelper.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\TestListBuilder\RenderingOptions.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\TestListBuilder\ResultSummarizer.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\TestListBuilder\TestFilterSettings.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\TestListBuilder\TestTreeViewBuilder.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\TestListGuiHelper.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\TestListTreeView\Icons.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\TestListTreeView\TestListTreeViewDataSource.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\TestListTreeView\TestListTreeViewGUI.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\TestListTreeView\TestTreeViewItem.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\TestRunnerResult.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\TestRunnerUIFilter.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\Views\EditModeTestListGUI.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\Views\PlayModeTestListGUI.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\Views\TestListGUIBase.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\NUnitExtension\Attributes\AssetPipelineIgnore.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\NUnitExtension\Attributes\ITestPlayerBuildModifier.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\NUnitExtension\Attributes\TestPlayerBuildModifierAttribute.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\NUnitExtension\TestRunnerStateSerializer.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\RequireApiProfileAttribute.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\RequirePlatformSupportAttribute.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestBuildAssemblyFilter.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\AttributeFinderBase.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\EditModeLauncher.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\EditModeLauncherContextSettings.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PlatformSetup\AndroidPlatformSetup.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PlatformSetup\ApplePlatformSetup.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PlatformSetup\IPlatformSetup.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PlatformSetup\LuminPlatformSetup.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PlatformSetup\PlatformSpecificSetup.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PlatformSetup\SwitchPlatformSetup.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PlatformSetup\UwpPlatformSetup.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PlatformSetup\XboxOnePlatformSetup.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PlayerLauncher.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PlayerLauncherBuildOptions.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PlayerLauncherContextSettings.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PlaymodeLauncher.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PostbuildCleanupAttributeFinder.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PrebuildSetupAttributeFinder.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\RemotePlayerLogController.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\RemotePlayerTestController.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\RemoteTestResultReciever.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\RuntimeTestLauncherBase.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\TestLauncherBase.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestResultSerializer.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\BuildActionTaskBase.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\BuildTestTreeTask.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\CleanupVerificationTask.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\FileCleanupVerifierTaskBase.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\LegacyEditModeRunTask.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\LegacyPlayModeRunTask.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\LegacyPlayerRunTask.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\PerformUndoTask.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\PrebuildSetupTask.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\RegisterFilesForCleanupVerificationTask.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\SaveModiedSceneTask.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\SaveUndoIndexTask.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\TestTaskBase.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\TestJobData.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\TestJobDataHolder.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\TestJobRunner.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\TestRunCanceledException.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Callbacks\EditModeRunnerCallback.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Callbacks\RerunCallback.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Callbacks\RerunCallbackData.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Callbacks\RerunCallbackInitializer.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Callbacks\TestRunnerCallback.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Callbacks\WindowResultUpdater.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\EditModePCHelper.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\EditModeRunner.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\EditmodeWorkItemFactory.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\EditorEnumeratorTestWorkItem.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\EnumeratorStepHelper.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Messages\EnterPlayMode.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Messages\ExitPlayMode.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Messages\RecompileScripts.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Messages\WaitForDomainReload.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\CachingTestListProvider.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\EditorAssembliesProxy.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\EditorAssemblyWrapper.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\EditorCompilationInterfaceProxy.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\EditorLoadedTestAssemblyProvider.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\IEditorAssembliesProxy.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\IEditorCompilationInterfaceProxy.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\IEditorLoadedTestAssemblyProvider.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\ITestListCache.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\ITestListCacheData.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\ITestListProvider.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\TestListCache.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\TestListCacheData.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\TestListJob.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\TestListProvider.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunnerWindow.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunnerWindowSettings.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestSettings\ITestSettings.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestSettings\ITestSettingsDeserializer.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestSettings\TestSettings.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestSettings\TestSettingsDeserializer.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\AssemblyCompilationErrorsMessage.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\ITestRunnerApiMapper.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\IUtpLogger.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\IUtpMessageReporter.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\Message.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\TestFinishedMessage.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\TestPlanMessage.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\TestRunnerApiMapper.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\TestStartedMessage.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\TestState.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\UnityTestProtocolListener.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\UnityTestProtocolStarter.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\UtpDebuglogger.cs" />
-    <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\UtpMessageReporter.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Editor\AndroidBuildPostProcessor.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Editor\GoogleMobileAdsSettings.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Editor\GoogleMobileAdsSettingsEditor.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Editor\ManifestProcessor.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Editor\PListProcessor.cs" />
+    <Compile Include="Assets\PlayMaker ArrayMaker\Actions\ArrayList\Editor\ArrayListAddCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker ArrayMaker\Actions\ArrayList\Editor\ArrayListInsertCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker ArrayMaker\Actions\Editor\PlayMakerArrayListProxyObjectPropertyDrawer.cs" />
+    <Compile Include="Assets\PlayMaker ArrayMaker\Actions\HashTable\Editor\HashTableAddCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker ArrayMaker\Actions\HashTable\Editor\HashTableSetCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker ArrayMaker\Addons\Custom\GameObject\Editor\ArrayListSendEventToGameObjectsCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker ArrayMaker\Addons\Custom\Table\Actions\Editor\ArrayTableGetItemInspector.cs" />
+    <Compile Include="Assets\PlayMaker ArrayMaker\Addons\Custom\Table\Actions\Editor\ArrayTableSetItemInspector.cs" />
+    <Compile Include="Assets\PlayMaker ArrayMaker\Editor\ArrayMakerEditorUtils.cs" />
+    <Compile Include="Assets\PlayMaker ArrayMaker\__internal__\Editor\PlayMakerArrayListProxyInspector.cs" />
+    <Compile Include="Assets\PlayMaker ArrayMaker\__internal__\Editor\PlayMakerCollectionProxyInspector.cs" />
+    <Compile Include="Assets\PlayMaker ArrayMaker\__internal__\Editor\PlayMakerHashTableProxyInspector.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Csv\Editor\DataMakerCsvEditor.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Editor\DataMakerEditorUtils.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Actions\XML Read\Editor\XmlGetNextNodeListPropertiesEditor.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Actions\XML Read\Editor\XmlGetNodePropertiesEditor.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Actions\XML Read\Editor\XmlSelectNodesEditor.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Actions\XML Read\Editor\XmlSelectSingleNodeEditor.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Actions\__internal__\Editor\XmlCustomActionBaseEditor.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\ArrayMaker\Actions\Editor\HashTableGetXmlNodePropertiesEditor.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Editor\DataMakerReferenceBrowser.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\__internal__\Editor\DataMakerActionEditorUtils.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\__internal__\Editor\DataMakerXmlEditor.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\__internal__\Editor\DataMakerXmlNodeListProxyEditor.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\__internal__\Editor\DataMakerXmlNodeProxyEditor.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\__internal__\Editor\DataMakerXmlProxyEditor.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\__internal__\Editor\UI\DataMakerEditorGUILayoutUtils.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\_internal_\Editor\DataMakerEditor.cs" />
+    <Compile Include="Assets\PlayMaker Utils\Components\Editor\CommentInspector.cs" />
+    <Compile Include="Assets\PlayMaker Utils\Editor\PlayMakerCurrentEventDataEditor.cs" />
+    <Compile Include="Assets\PlayMaker Utils\Editor\PlayMakerEditorUtils.cs" />
+    <Compile Include="Assets\PlayMaker Utils\Editor\PlayMakerInspectorUtils.cs" />
+    <Compile Include="Assets\PlayMaker Utils\Editor\PlayMakerInspectorUtils_Events.cs" />
+    <Compile Include="Assets\PlayMaker Utils\Editor\PlayMakerInspectorUtils_Reflection.cs" />
+    <Compile Include="Assets\PlayMaker Utils\Editor\PlayMakerInspectorUtils_Variables.cs" />
+    <Compile Include="Assets\PlayMaker Utils\Editor\PlayMakerStats.cs" />
+    <Compile Include="Assets\PlayMaker Utils\Editor\PlayMakerUtilsDefine.cs" />
+    <Compile Include="Assets\PlayMaker Utils\PropertyDrawers\ButtonAttribute\Editor\ButtonDrawer.cs" />
+    <Compile Include="Assets\PlayMaker Utils\PropertyDrawers\Editor\PlayMakerPropertyDrawerBaseClass.cs" />
+    <Compile Include="Assets\PlayMaker Utils\PropertyDrawers\MainCameraTarget\Editor\MainCameraTargetPropertyDrawer.cs" />
+    <Compile Include="Assets\PlayMaker Utils\PropertyDrawers\Owner\Editor\OwnerPropertyDrawer.cs" />
+    <Compile Include="Assets\PlayMaker Utils\PropertyDrawers\PlayMakerEvent\Editor\PlayMakerEventPropertyDrawer.cs" />
+    <Compile Include="Assets\PlayMaker Utils\PropertyDrawers\PlayMakerEventTarget\Editor\PlayMakerEventTargetPropertyDrawer.cs" />
+    <Compile Include="Assets\PlayMaker Utils\PropertyDrawers\PlayMakerFsmTarget\Editor\PlayMakerFsmTargetPropertyDrawer.cs" />
+    <Compile Include="Assets\PlayMaker Utils\PropertyDrawers\PlayMakerFsmVariable\Editor\PlayMakerFsmVariablePropertyDrawer.cs" />
+    <Compile Include="Assets\PlayMaker Utils\PropertyDrawers\PlayMakerFsmVariableTarget\Editor\PlayMakerFsmVariableTargetPropertyDrawer.cs" />
+    <Compile Include="Assets\PlayMaker Utils\PropertyDrawers\PlayMakerTimelineEventTarget\Editor\PlayMakerTimelineEventTargetPropertyDrawer.cs" />
+    <Compile Include="Assets\PlayMaker Utils\Wizards\EnumCreator\Editor\EnumCreator.cs" />
+    <Compile Include="Assets\PlayMaker Utils\Wizards\EnumCreator\Editor\EnumCreatorWizard.cs" />
+    <Compile Include="Assets\PlayMaker Utils\Wizards\EnumCreator\Editor\EnumFileFinder.cs" />
+    <Compile Include="Assets\PlayMaker Utils\Wizards\LinkerWizard\Editor\LinkerDataCustomInspector.cs" />
+    <Compile Include="Assets\PlayMaker Utils\Wizards\LinkerWizard\Editor\LinkerEditorChecks.cs" />
+    <Compile Include="Assets\PlayMaker Utils\Wizards\PlayMakerEventProxy\Editor\EventProxyFileFinder.cs" />
+    <Compile Include="Assets\PlayMaker Utils\Wizards\PlayMakerEventProxy\Editor\PlayMakerEventProxyCreator.cs" />
+    <Compile Include="Assets\PlayMaker Utils\Wizards\PlayMakerEventProxy\Editor\PlayMakerEventProxyCreatorWizard.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\BaseClasses\OnAnimatorUpdateActionEditorBase.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorAnimatorRootActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorBodyActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorBoneGameObjectActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorBoolActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorCurrentStateInfoActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorCurrentStateInfoIsNameActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorCurrentStateInfoIsTagActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorCurrentTransitionInfoActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorCurrentTransitionInfoIsNameActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorCurrentTransitionInfoIsUserNameActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorDeltaActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorFloatActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorGravityWeightActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorIKGoalActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorIntActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorIsLayerInTransitionActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorIsMatchingTargetActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorLayerWeightActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorNextStateInfoActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorPivotActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorSpeedActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorTargetActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\SetAnimatorBoolActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\SetAnimatorFloatActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\SetAnimatorIntActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Editor\CallMethodEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Editor\GetDistanceEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Editor\LookAtActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Editor\MoveTowardsActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Editor\PlayMakerEventProxyEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Editor\SetCameraFOVActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Editor\SetPropertyEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Quaternion\Editor\GetQuaternionEulerAnglesCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Quaternion\Editor\GetQuaternionFromRotationCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Quaternion\Editor\GetQuaternionMultipliedByQuaternionCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Quaternion\Editor\GetQuaternionMultipliedByVectorCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Quaternion\Editor\QuaternionAngleAxisCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Quaternion\Editor\QuaternionCustomEditorBase.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Quaternion\Editor\QuaternionEulerCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Quaternion\Editor\QuaternionInverseCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Quaternion\Editor\QuaternionLerpCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Quaternion\Editor\QuaternionLookRotationCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Quaternion\Editor\QuaternionLowPassFilterCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Quaternion\Editor\QuaternionRotateTowardsCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Quaternion\Editor\QuaternionSlerpCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\SceneManager\Editor\GetSceneBuildIndexCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\SceneManager\Editor\GetSceneIsDirtyCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\SceneManager\Editor\GetSceneIsLoadedCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\SceneManager\Editor\GetSceneIsValidCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\SceneManager\Editor\GetSceneNameCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\SceneManager\Editor\GetScenePathCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\SceneManager\Editor\GetSceneRootCountCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\SceneManager\Editor\GetSceneRootGameObjectsCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\SceneManager\Editor\Internal\GetSceneActionBaseCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\SceneManager\Editor\LoadSceneAsynchCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\SceneManager\Editor\LoadSceneCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\SceneManager\Editor\MergeScenesCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\SceneManager\Editor\MoveGameObjectToSceneCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\SceneManager\Editor\SetActiveSceneCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\SceneManager\Editor\UnLoadSceneAsynchCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\SceneManager\Editor\UnLoadSceneCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\UI\Editor\UiIcons.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\AboutWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\AssetGUIDs.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\BaseGuidedTourWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\ContextToolWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\DefinesHelper.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\EditorStartupPrefs.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\FsmActionWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\FsmComponentInspector.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\FsmEditorWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\FsmErrorWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\FsmEventsWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\FsmGlobalsWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\FsmLogWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\FsmSelectorWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\FsmStateWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\FsmTemplate.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\FsmTemplateEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\FsmTemplateWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\FsmTimelineWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerAddonManager.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerAutoUpdater.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerBugReportWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerBuildCallbacks.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerCustomActionWizard.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerDefines.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerEditorStartup.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerGUIInspector.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerGlobalsInspector.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerGuidedTour.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerMainMenu.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerProjectTools.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerUpdater.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerUpgradeGuide.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerUpgradeTools.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerWelcomeWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PreUpdateChecker.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\ReportWindow.cs" />
+    <Compile Include="Assets\net.fabrejean\Editor\Common\Utils.cs" />
+    <Compile Include="Assets\net.fabrejean\Editor\Common\VersionInfo.cs" />
+    <Compile Include="Assets\net.fabrejean\Editor\Common\WWW.cs" />
+    <Compile Include="Assets\net.fabrejean\Editor\MarkDownSharp\Escapes.cs" />
+    <Compile Include="Assets\net.fabrejean\Editor\MarkDownSharp\MarkDownFileInspector.cs" />
+    <Compile Include="Assets\net.fabrejean\Editor\MarkDownSharp\MarkdownGUI.cs" />
+    <Compile Include="Assets\net.fabrejean\Editor\MarkDownSharp\MarkdownParser.cs" />
+    <Compile Include="Assets\net.fabrejean\Editor\MarkDownSharp\ObjectInspector.cs" />
+    <Compile Include="Assets\net.fabrejean\Editor\PlayMaker\Ecosystem\Classes\EcosystemEditorDefinesUtils.cs" />
+    <Compile Include="Assets\net.fabrejean\Editor\PlayMaker\Ecosystem\Classes\EcosystemUtils.cs" />
+    <Compile Include="Assets\net.fabrejean\Editor\PlayMaker\Ecosystem\Classes\Item.cs" />
+    <Compile Include="Assets\net.fabrejean\Editor\PlayMaker\Ecosystem\Classes\ItemDocumentation.cs" />
+    <Compile Include="Assets\net.fabrejean\Editor\PlayMaker\Ecosystem\Classes\WebImageManager.cs" />
+    <Compile Include="Assets\net.fabrejean\Editor\PlayMaker\Ecosystem\EcosystemBrowser.cs" />
+    <Compile Include="Assets\net.fabrejean\Editor\PlayMaker\Ecosystem\Tools\ProjectScanner\ProjectScanner.cs" />
+    <Compile Include="Assets\net.fabrejean\Editor\Plugins\EditorCoroutine.cs" />
+    <Compile Include="Assets\net.fabrejean\Editor\Plugins\HttpWrapper.cs" />
+    <Compile Include="Assets\net.fabrejean\Editor\Plugins\JSON.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GoogleMobileAds\Editor\GoogleMobileAdsDependencies.xml" />

@@ -1,0 +1,37 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Plugins/UnityPurchasing/script/IAPConfigurationHelper.cs">
+    <Files>
+      <File FileName="Assets/Plugins/UnityPurchasing/script/IAPConfigurationHelper.cs" Line="12" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Kindergarten" expanded="True">
+            <Node name="Assembly-CSharp-firstpass" expanded="True">
+              <Node name="Assets" expanded="True">
+                <Node name="Plugins" expanded="True">
+                  <Node name="UnityPurchasing" expanded="True">
+                    <Node name="script" expanded="True">
+                      <Node name="IAPConfigurationHelper.cs" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Kindergarten" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
